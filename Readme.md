@@ -1,3 +1,6 @@
+# (INBOUND, EXTERNAL) : A customer uses Monte Carlo as a tool for data observability. They have set it up so that Monte Carlo catches any table health or data reliability issues early on. The customer would like Atlan to also become a near-real-time repository of such issues, with relevant metadata attached to respective assets.
+
+### monte_carlo_producer.py will be generating random alerts and kafka consumer will consume it and save in Cassandra as well
 
 ## Local Setup
 
